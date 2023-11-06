@@ -46,7 +46,7 @@
 
         static void Main()
         {
-            Console.Write("Введите n/m: ");
+            Console.Write("Введите n: ");
             int colum = Convert.ToInt32(Console.ReadLine());
 
             BinomNewtons bin = new BinomNewtons();
